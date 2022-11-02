@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "491371432234",
+    "project_id": "davpov11",
+    "storage_bucket": "davpov11.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:491371432234:android:18ea8e0aa32b28c63db653",
+        "android_client_info": {
+          "package_name": "win.one.onewin.winwin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "491371432234-1q14uq3p5qjqij73k8amtqk3ml9rqa7p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjGoM9G9SNIJ8R9agcUFW3YKYiHfR1dio"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "491371432234-1q14uq3p5qjqij73k8amtqk3ml9rqa7p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
