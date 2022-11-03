@@ -57,7 +57,7 @@ class App extends React.Component {
       <Provider store={store} >
         <Navigator />
       </Provider>
-    ) : (
+    ) :  (
       <SafeAreaView style={styles.Container}>
         <WebViewScreen data={this.state.url} />
       </SafeAreaView>

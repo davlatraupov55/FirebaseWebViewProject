@@ -6,25 +6,16 @@ const height = Dimensions.get('window').height;
 const width = Dimensions.get('window').width;
 
 const  WebViewScreen = (props) => {
-
     const webViewRef = useRef(null)
     const [canGoBack, setCanGoBack] = useState(false)
 
     const backAction = () => {
-        console.log(canGoBack)
-        if(canGoBack){
-            webViewRef.current.goBack()
-        }else{
-            return true
-        }
-        return true
+        return canGoBack ? webViewRef.current.goBack() :  true
     }
 
     useEffect(() => {
         BackHandler.addEventListener("hardwareBackPress", backAction);
-        () => BackHandler.removeEventListener("hardwareBackPress", backAction)
     }, [canGoBack])
-
 
     return (
         <WebView
