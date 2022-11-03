@@ -7,6 +7,7 @@ const height = Dimensions.get('window').height;
 const width = Dimensions.get('window').width;
 
 function TreningProgramm(props) {
+    console.log('TreningProgramm is started')
     const dispatch = useDispatch();
     const title = "Create your workout program";
 

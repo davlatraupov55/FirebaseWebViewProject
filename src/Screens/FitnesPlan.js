@@ -12,6 +12,7 @@ const height = Dimensions.get('window').height;
 const width = Dimensions.get('window').width;
 
 function FitnesPlan() {
+    console.log('FitnesPlan is started')
     const trening = useSelector((state) => state.programm)
     const [WorkoutProgramm, setWorkoutProgramm] = useState(trening.programm);
 
